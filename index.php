@@ -11,6 +11,7 @@
     {
         $class="Home";
         $method="Inicio";
+       
     }
     //echo $class."---".$method."<br />";
     

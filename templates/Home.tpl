@@ -1,11 +1,11 @@
+{include file="templates/Cabeceras/Header.tpl"}
 
-
-    <div class="container">
+    <div class="container" >
         <div class="row">
             <div class="input-field col s12">
-               
-                    <h1 class=" center-align  blue-text">REGISTRO</h1>
-               
+                <div class="card-panel teal lighten-2 ">
+                        <h1 class=" center-align  blue-text">REGISTRO</h1>
+                </div>   
             </div>
         </div>
                 
@@ -24,10 +24,12 @@
           
           <div class="row">
               <div class="input-field col s4">
+                <i class="material-icons prefix">done</i>
                 <input class="waves-effect waves-light btn" type="submit" value="Enviar"/>
               </div> 
           </div>   
         </form>
     </div>
+{include file="templates/Cabeceras/Footer.tpl"}
 
 
