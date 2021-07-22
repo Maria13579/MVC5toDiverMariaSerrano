@@ -3,7 +3,7 @@
     {
         public function Inicio()
         {
-            $smarty = new Smarty();
+          /* $smarty = new Smarty();
             $vec=array();
             $vec=[
                 ['usuario'=>'Eva','pass'=>'123'],
@@ -15,9 +15,8 @@
             ];
             $smarty->assign('datos', $vec);
             $smarty->assign('nombre','Login');
-         
             $smarty->display('User.Controller.php');
-           
+           */
               
         }
     }
